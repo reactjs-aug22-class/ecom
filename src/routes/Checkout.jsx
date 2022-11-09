@@ -1,6 +1,7 @@
-import './checkout.module.css'
+import './checkout.stylesheet.css'
 
 import React from 'react'
+
 export default function Checkout() {
   return <div>Checkout</div>
 }
