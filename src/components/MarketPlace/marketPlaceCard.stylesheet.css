@@ -5,9 +5,7 @@
   max-width: 150px;
   border: 1px solid sienna;
   border-radius: 8px;
-  padding: 1rem;
-  margin: 1rem;
-  background-color: seashell;
+  padding: 1rem 2rem;
 }
 
 .marketplace-card-img {
@@ -15,14 +13,17 @@
   border-radius: 4px;
 }
 
-.btn {
-  border: none;
-  outline: none;
-  background: none;
+.marketplace-card-price {
+  font-weight: bold;
+}
+
+.marketplace-card-price::last-letter {
+  font-weight: bold;
+  color: red;
 }
 
 .marketplace-btn {
-  padding: 0.6rem;
+  padding: 0.6rem 1.5rem;
   border-radius: 4px;
   border: 1px solid sienna;
   color: sienna;

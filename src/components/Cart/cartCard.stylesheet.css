@@ -1,0 +1,32 @@
+.cart-card {
+  padding: 1rem;
+  width: 100%;
+}
+.cart-card-remove {
+  text-align: right;
+}
+
+.cart-card-remove > span {
+  cursor: pointer;
+}
+
+.cart-card-content {
+  display: flex;
+  gap: 1rem;
+  max-width: 100%;
+  align-items: center;
+}
+
+.cart-card-price {
+  margin-left: auto;
+}
+
+.cart-card-btn {
+  font-size: 8px;
+  background-color: lightgrey;
+  margin-left: 4px;
+}
+
+.cart-card-content > img {
+  width: 90px;
+}

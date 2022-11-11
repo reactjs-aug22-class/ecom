@@ -1,0 +1,18 @@
+.cart-summary {
+  padding: 1rem;
+}
+
+.cart-summary-price {
+  display: flex;
+  justify-content: space-between;
+  height: 5rem;
+}
+
+.cart-summary-btn {
+  display: block;
+  height: 2rem;
+  background-color: lightgray;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
