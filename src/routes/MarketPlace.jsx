@@ -1,13 +1,14 @@
 import './marketplace.stylesheet.css'
 
-import MarketPlaceCard from '../components/MarketPlace/MarketPlaceCard'
+import Header from '../components/Header'
+import MarketPlaceCards from '../components/MarketPlace/MarketPlaceCards'
 import React from 'react'
 
 export default function MarketPlace() {
   return (
     <>
-      <div>MarketPlace</div>
-      <MarketPlaceCard />
+      <h3 className="marketplace-title">MarketPlace</h3>
+      <MarketPlaceCards />
     </>
   )
 }

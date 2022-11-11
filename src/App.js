@@ -1,22 +1,17 @@
 import './App.css'
 
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
-
-import Cart from './routes/Cart'
-import FakeCheckout from './routes/Checkout'
-import MarketPlace from './routes/MarketPlace'
-import NoMatch from './routes/NoMatch'
+import Header from './components/Header'
+import { Outlet } from 'react-router-dom'
+import UserCartProvider from './components/Context/UserCartProvider'
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<MarketPlace />} />
-        <Route path="cart" element={<Cart />} />
-        <Route path="checkout" element={<FakeCheckout />} />
-        <Route path="*" element={<NoMatch />} />
-      </Routes>
-    </BrowserRouter>
+    <div className="route-main">
+      <UserCartProvider>
+        <Header />
+        <Outlet />
+      </UserCartProvider>
+    </div>
   )
 }
 
