@@ -9,7 +9,7 @@
 }
 
 .marketplace-card-img {
-  width: 140px;
+  max-height: 130px;
   border-radius: 4px;
 }
 
@@ -28,4 +28,12 @@
   border: 1px solid sienna;
   color: sienna;
   font-weight: bold;
+}
+
+.product-title {
+  flex-grow: 1;
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
 }
