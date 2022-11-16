@@ -23,10 +23,35 @@
 
 .cart-card-btn {
   font-size: 8px;
-  background-color: lightgrey;
+  background-color: sandybrown;
   margin-left: 4px;
 }
 
 .cart-card-content > img {
   width: 90px;
+}
+
+.close-btn {
+  width: 100%;
+  display: block;
+  background-color: transparent;
+  border: none;
+}
+
+.qty-warning {
+  font-size: 12px;
+  font-style: italic;
+  color: red;
+}
+
+.bin-btn {
+  background-color: transparent;
+  border: none;
+  color: red;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.grey-out {
+  background-color: white;
 }
