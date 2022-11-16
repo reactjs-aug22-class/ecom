@@ -10,7 +10,7 @@ export default function CartTitle() {
   return (
     <div className="cart-title box-shadow">
       <div className="cart-title-icon">
-        <span class="material-symbols-outlined">shopping_cart</span>
+        <span className="material-symbols-outlined">shopping_cart</span>
         <CartItemsCount count={userCart.length} />
       </div>
       <span className="cart-title-heading">Cart</span>
